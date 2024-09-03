@@ -1,0 +1,92 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00ffbb, #734cff, #d4ef72);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body{
+    margin: 0;
+}
+
+.top-area{
+    height: 25vh;
+}
+
+.gradient-area{
+    height: 12.5vh;
+ }
+
+hr{
+    border: dotted #AEE9F5 10px;
+    width: 10%;
+    border-bottom: none;
+    margin-top: 12.5vh;
+}
+
+.content-area{
+    background-color: #DCDDE0;
+    text-align: center;
+ }
+
+.name{
+    font-size: 5rem;
+    font-family: "Baskervville SC", serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    padding-top: 100px;
+ }
+
+h2{
+    font-size: 2.5rem;
+    font-family: "Baskervville SC", serif;
+}
+
+.resume-photo{
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.introduction{
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 50px 25%;
+    padding-bottom: 100px;
+}
+
+.h2-heading{
+    margin-top: 0;
+    padding: 100px 0;
+}
+
+.btn{
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.empty-space{
+    height: 100px;
+    background-color: #DCDDE0;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 12.5vh;
+    color: white;
+}
